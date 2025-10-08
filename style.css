@@ -1,0 +1,40 @@
+
+body{
+    background-color: rgb(199, 162, 162);
+}
+body{
+    position: absolute;
+    right: 40% ;
+h1 {
+    color: blue;
+}
+tr:nth-child(1){
+   background-color: darkcyan;
+}
+tr:nth-child(2){
+    background-color: aqua;
+}
+tr:nth-child(3){
+    background-color:royalblue;
+}
+tr:nth-child(4){
+    background-color: azure;
+}
+tr:nth-child(5){
+    background-color: skyblue;
+}
+tr:nth-child(6){
+    background-color:cyan ;
+}
+tr:nth-child(7){
+    background-color: deepskyblue;
+}
+tr:nth-child(8){
+    background-color: lightskyblue;
+}
+tr:nth-child(9){
+    background-color: lightblue;
+}
+tr:nth-child(10){
+    background-color: powderblue;
+}
