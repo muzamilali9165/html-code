@@ -1,40 +1,117 @@
-
 body{
-    background-color: rgb(199, 162, 162);
+  background-color: gray;
 }
-body{
-    position: absolute;
-    right: 40% ;
 h1 {
-    color: blue;
+color: rgb(129, 58, 58);
+  text-align:center;
 }
-tr:nth-child(1){
-   background-color: darkcyan;
-}
-tr:nth-child(2){
-    background-color: aqua;
-}
-tr:nth-child(3){
-    background-color:royalblue;
-}
-tr:nth-child(4){
-    background-color: azure;
-}
-tr:nth-child(5){
-    background-color: skyblue;
-}
-tr:nth-child(6){
-    background-color:cyan ;
-}
-tr:nth-child(7){
-    background-color: deepskyblue;
-}
-tr:nth-child(8){
-    background-color: lightskyblue;
-}
-tr:nth-child(9){
-    background-color: lightblue;
-}
-tr:nth-child(10){
-    background-color: powderblue;
-}
+    .box-group {
+      display: inline-block;
+      margin: 10px;
+    }
+
+    .box {
+      width: 100px;
+      height: 50px;
+      box-sizing: border-box;
+    }
+    /* Box Group 1 */
+      .custom-box {
+      width: 100px;
+      height: 50px;
+      border-left: none;
+      border-top: none;
+      border-bottom: none;
+      border-right: 2px solid black; /* Only right border */
+      box-sizing: border-box;
+    }
+    /* Box Group 2 */
+    .box2 .upper {
+      border-left: none;
+    }
+
+    .box2 .lower {
+      border-right: none;
+      border-top: none;
+    }
+
+    /* Box Group 3 */
+    .box3 .upper {
+      border-left: none;
+    }
+
+    .box3 .lower {
+      border-left: none;
+      border-top: none;
+    }
+
+    /* Box Group 4 */
+    .box4 .upper {
+      border-top: none;
+    }
+
+    .box4 .lower {
+      border-left: none;
+      border-top: none;
+      border-bottom: none;
+    }
+
+    /* Box Group 5 */
+    .box5 .upper {
+      border-right: none;
+    }
+
+    .box5 .lower {
+      width: 100px;
+      border-left: none;
+      border-top: none;
+    }
+
+    /* Box Group 6 */
+    .box6 .upper {
+      border-right: none;
+    }
+
+    .box6 .lower {
+      border-top: none;
+    }
+
+    /* Box Group 7 */
+    .box7 .upper {
+      border-left: none;
+      border-bottom: none;
+    }
+
+    .box7 .lower {
+      border-left: none;
+      border-top: none;
+      border-bottom: none;
+    }
+
+    /* Box Group 8 */
+    .box8 .upper{
+      border-bottom: none;
+    }
+    .box8 .lower {
+      border: 2px solid black;
+      top: none;
+    }
+
+    /* Box Group 9 */
+    .box9 .upper {
+      border: 2px solid black;
+    }
+
+    .box9 .lower {
+      width: 100px;
+      border-left: none;
+      border-top: none;
+    }
+
+    /* General Styling for All Boxes */
+    .upper, .lower {
+      border: 2px solid black; /* default border to override with specific sides */
+    }
+  
+
+ 
