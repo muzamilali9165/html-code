@@ -1,117 +1,32 @@
-body{
-  background-color: gray;
+body {
+  background-color: black;
 }
-h1 {
-color: rgb(129, 58, 58);
-  text-align:center;
+h1{
+  color: red;
+  text-align: center;
 }
-    .box-group {
-      display: inline-block;
-      margin: 10px;
-    }
+.tiobligth{
+  text-align: center;
+width: 1000px;
+height: 30px;
+margin-left: 10%;
+margin-right: 30%;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+box-shadow: 0px 0px 110px 20px white;
+background-color: white;
+margin-top: 5%;
+}
 
-    .box {
-      width: 100px;
-      height: 50px;
-      box-sizing: border-box;
-    }
-    /* Box Group 1 */
-      .custom-box {
-      width: 100px;
-      height: 50px;
-      border-left: none;
-      border-top: none;
-      border-bottom: none;
-      border-right: 2px solid black; /* Only right border */
-      box-sizing: border-box;
-    }
-    /* Box Group 2 */
-    .box2 .upper {
-      border-left: none;
-    }
-
-    .box2 .lower {
-      border-right: none;
-      border-top: none;
-    }
-
-    /* Box Group 3 */
-    .box3 .upper {
-      border-left: none;
-    }
-
-    .box3 .lower {
-      border-left: none;
-      border-top: none;
-    }
-
-    /* Box Group 4 */
-    .box4 .upper {
-      border-top: none;
-    }
-
-    .box4 .lower {
-      border-left: none;
-      border-top: none;
-      border-bottom: none;
-    }
-
-    /* Box Group 5 */
-    .box5 .upper {
-      border-right: none;
-    }
-
-    .box5 .lower {
-      width: 100px;
-      border-left: none;
-      border-top: none;
-    }
-
-    /* Box Group 6 */
-    .box6 .upper {
-      border-right: none;
-    }
-
-    .box6 .lower {
-      border-top: none;
-    }
-
-    /* Box Group 7 */
-    .box7 .upper {
-      border-left: none;
-      border-bottom: none;
-    }
-
-    .box7 .lower {
-      border-left: none;
-      border-top: none;
-      border-bottom: none;
-    }
-
-    /* Box Group 8 */
-    .box8 .upper{
-      border-bottom: none;
-    }
-    .box8 .lower {
-      border: 2px solid black;
-      top: none;
-    }
-
-    /* Box Group 9 */
-    .box9 .upper {
-      border: 2px solid black;
-    }
-
-    .box9 .lower {
-      width: 100px;
-      border-left: none;
-      border-top: none;
-    }
-
-    /* General Styling for All Boxes */
-    .upper, .lower {
-      border: 2px solid black; /* default border to override with specific sides */
-    }
-  
-
- 
+.son{
+  width: 500px;
+  height: 500px;
+  border-top-left-radius: 100%;
+  border-top-right-radius: 100%;
+  border-bottom-left-radius: 100%;
+  border-bottom-right-radius: 100%;
+  box-shadow: 0px 0px 110px 20px #fdee00;
+  background-color: #fdee00;
+  margin-top: 12%;
+  margin-left: 25%;
+}
